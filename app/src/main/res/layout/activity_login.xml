@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LoginActivity">
+
+        <TextView
+            android:text="Iniciar Sesión"
+            android:layout_margin="16dp"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/txvId"
+            android:text="ID"
+            android:layout_margin="16dp"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/txvCorreo"
+            android:text="CORREO"
+            android:layout_margin="16dp"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+
+        <EditText
+            android:id="@+id/edtxCorreo"
+            android:hint="Ingrese Correo"
+            android:inputType="textEmailAddress"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/edtxContrasena"
+            android:hint="Ingrese Contraseña"
+            android:inputType="textPassword"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/botonIniciarSesion"
+            android:text="Iniciar Sesion"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Button>
+
+        <Button
+            android:id="@+id/botonRegistro"
+            android:layout_margin="16dp"
+            android:text="Registrarme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/botonCerrarSesion"
+            android:layout_margin="16dp"
+            android:text="Cerrar Sesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+
+
+
+
+
+
+    </LinearLayout>
+</layout>

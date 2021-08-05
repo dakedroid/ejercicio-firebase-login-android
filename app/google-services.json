@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "993809195609",
+    "project_id": "practica-2f9d7",
+    "storage_bucket": "practica-2f9d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993809195609:android:6c986c2da6683a822b4748",
+        "android_client_info": {
+          "package_name": "mx.tecnm.voaxaca.androidjetpack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993809195609-92u6vbiq4i41muqbjdksn0c3b7hd28ho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0UMFrc3zrTA98qso1_S10GUYfygEzoXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993809195609-92u6vbiq4i41muqbjdksn0c3b7hd28ho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
